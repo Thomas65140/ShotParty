@@ -22,6 +22,7 @@ public class Play extends AppCompatActivity {
     private Button Button_turn, Button_suite;
     private ImageView roue;
     private TextView textCouleur;
+    private String colorCase;
 
     Random r;
 
@@ -44,6 +45,9 @@ public class Play extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent otherActivity = new Intent(getApplicationContext(), Pioche.class);
+
+                //Passage du paramètre avec l'id 'color'
+                otherActivity.putExtra("color",colorCase);
                 startActivity(otherActivity);
                 finish();
             }
@@ -78,9 +82,13 @@ public class Play extends AppCompatActivity {
                     @Override
                     public void onAnimationEnd(Animation animation) {
 
-                        textCouleur.setText(currentNumber(360 - (degree % 360)));
+                        colorCase = currentNumber(360 - (degree % 360));
+
+                        textCouleur.setText(colorCase);
                         Button_turn.setVisibility(View.INVISIBLE);
                         Button_suite.setVisibility(View.VISIBLE);
+
+
 
                     }
 
