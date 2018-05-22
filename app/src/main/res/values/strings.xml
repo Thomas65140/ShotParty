@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bouton_play">P L A Y</string>
+    <string name="text_shotparty">ShotParty</string>
+    <string name="bouton_lancer">L A N C E R</string>
+    <string name="bouton_suite">S U I T E</string>
+</resources>
