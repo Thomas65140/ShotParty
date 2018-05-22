@@ -62,7 +62,6 @@ public class Play extends AppCompatActivity {
         Button_turn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 degree_old = degree % 360;
                 degree = r.nextInt(3600) + 720;
 
