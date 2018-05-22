@@ -50,6 +50,7 @@ public class Play extends AppCompatActivity {
                 otherActivity.putExtra("color",colorCase);
                 startActivity(otherActivity);
                 finish();
+
             }
         });
         roue = (ImageView) findViewById(R.id.roue);
