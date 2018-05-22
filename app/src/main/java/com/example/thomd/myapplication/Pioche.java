@@ -13,8 +13,6 @@ public class Pioche extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pioche);
 
-
-
         //récupération du paramètre
         String colorCase = getIntent().getStringExtra("color");
         Toast.makeText(getApplicationContext(),"Couleur" + colorCase, Toast.LENGTH_LONG).show();
