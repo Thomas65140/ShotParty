@@ -76,7 +76,6 @@ public class Play extends AppCompatActivity {
                     public void onAnimationStart(Animation animation) {
 
                         textCouleur.setText("");
-
                     }
 
                     @Override
