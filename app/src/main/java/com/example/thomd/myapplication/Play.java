@@ -46,7 +46,7 @@ public class Play extends AppCompatActivity {
             public void onClick(View v) {
                 Intent otherActivity = new Intent(getApplicationContext(), Pioche.class);
 
-                //Passage du paramètre avec l'id 'color'k
+                //Passage du paramètre avec l'id 'color'
                 otherActivity.putExtra("color",colorCase);
                 startActivity(otherActivity);
                 finish();
