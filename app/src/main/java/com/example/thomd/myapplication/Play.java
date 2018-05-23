@@ -38,8 +38,8 @@ public class Play extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play);
 
-        Button_turn = (Button) findViewById(R.id.Button_turn);
-        this.Button_suite = (Button) findViewById(R.id.Button_suite);
+        Button_turn = findViewById(R.id.Button_turn);
+        this.Button_suite = findViewById(R.id.Button_suite);
         Button_suite.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
@@ -53,8 +53,8 @@ public class Play extends AppCompatActivity {
 
             }
         });
-        roue = (ImageView) findViewById(R.id.roue);
-        textCouleur = (TextView) findViewById(R.id.textCouleur);
+        roue = findViewById(R.id.roue);
+        textCouleur = findViewById(R.id.textCouleur);
 
         r = new Random();
 
