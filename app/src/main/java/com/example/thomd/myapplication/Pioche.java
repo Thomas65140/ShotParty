@@ -11,6 +11,7 @@ import static java.security.AccessController.getContext;
 public class Pioche extends AppCompatActivity {
 
     int fond = getIntent().getIntExtra("colorInt", 0);
+    int r;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
