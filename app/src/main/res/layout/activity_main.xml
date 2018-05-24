@@ -11,7 +11,9 @@
         android:id="@+id/button_play"
         android:layout_width="272dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
         android:background="@drawable/custom_bouton_play"
         android:text="@string/bouton_play"
         android:textColor="@android:color/black"
@@ -21,9 +23,27 @@
         android:id="@+id/imageView3"
         android:layout_width="343dp"
         android:layout_height="184dp"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/editText2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
         app:srcCompat="@drawable/titre_appli" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
 </RelativeLayout>

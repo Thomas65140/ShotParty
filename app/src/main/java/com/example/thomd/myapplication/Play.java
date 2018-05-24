@@ -44,12 +44,21 @@ public class Play extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View v) {
+
+                final String couleur = textCouleur.getText().toString();
+
                 Intent otherActivity = new Intent(getApplicationContext(), Pioche.class);
+
 
                 //Passage du paramètre avec l'id 'color'
 
                 otherActivity.putExtra("color",colorCase);
+
+               otherActivity.putExtra("color",colorCase);
+
+
                 startActivity(otherActivity);
+
                 finish();
 
             }
@@ -88,8 +97,6 @@ public class Play extends AppCompatActivity {
                         Button_turn.setVisibility(View.INVISIBLE);
                         Button_suite.setVisibility(View.VISIBLE);
 
-
-
                     }
 
                     @Override
@@ -104,7 +111,6 @@ public class Play extends AppCompatActivity {
     }
     private String currentNumber(int degrees){
         String text = "";
-
 
         if(degrees >= (FACTOR * 0) && degrees < (FACTOR * 2)){
             text = "V E R T";
