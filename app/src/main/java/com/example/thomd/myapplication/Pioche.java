@@ -10,6 +10,9 @@ import static java.security.AccessController.getContext;
 
 public class Pioche extends AppCompatActivity {
 
+    private String couleur;
+    private RelativeLayout cpioche = findViewById(R.id.pioche);
+
     int fond = getIntent().getIntExtra("colorInt", 0);
     int r;
 
@@ -17,8 +20,6 @@ public class Pioche extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pioche);
-
-        RelativeLayout cpioche = findViewById(R.id.pioche);
 
         //récupération du paramètre
         String colorCase = getIntent().getStringExtra("color");
