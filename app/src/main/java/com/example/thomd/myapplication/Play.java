@@ -13,6 +13,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -39,8 +40,9 @@ public class Play extends AppCompatActivity {
         setContentView(R.layout.activity_play);
 
         Button_turn = findViewById(R.id.Button_turn);
-        this.Button_suite = findViewById(R.id.Button_suite);
-        Button_suite.setOnClickListener(new View.OnClickListener() {
+        Button_suite = findViewById(R.id.Button_suite);
+        Button_suite.setOnClickListener(new View.OnClickListener()
+        {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View v) {
@@ -51,7 +53,29 @@ public class Play extends AppCompatActivity {
 
 
                 //Passage du paramètre avec l'id 'color'
+                int color = 0;
 
+                switch (colorCase)
+                {
+                    case "V E R T" :
+                        color = getResources().getColor(R.color.green);
+                        break;
+
+                    case "O R A N G E" :
+                        color = getResources().getColor(R.color.orange);
+
+                        break;
+                    case "R O U G E" :
+                        color = getResources().getColor(R.color.red);
+
+                        break;
+                    case "N O I R" :
+                        color = getResources().getColor(R.color.black);
+
+                        break;
+                }
+
+                otherActivity.putExtra("colorInt",color);
                 otherActivity.putExtra("color",colorCase);
 
                otherActivity.putExtra("color",colorCase);
