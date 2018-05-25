@@ -83,8 +83,6 @@ public class Play extends AppCompatActivity {
 
                 startActivity(otherActivity);
 
-                finish();
-
             }
         });
         roue = findViewById(R.id.roue);

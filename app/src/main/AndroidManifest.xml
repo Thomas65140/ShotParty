@@ -22,7 +22,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".Play" />
-        <activity android:name=".Pioche"></activity>
+        <activity android:name=".Pioche" />
+        <activity android:name=".Joueur"></activity>
     </application>
 
 </manifest>

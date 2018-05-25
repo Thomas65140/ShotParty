@@ -4,26 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fond_appli"
+    android:background="@drawable/fond_biere"
     tools:context=".Play">
-
-    <ImageView
-        android:id="@+id/roue"
-        android:layout_width="336dp"
-        android:layout_height="335dp"
-
-        android:layout_centerInParent="true"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/roue" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="44dp"
         android:layout_height="25dp"
 
-        android:layout_above="@+id/roue"
+        android:layout_alignTop="@+id/roue"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/fleche" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/titre_appli" />
+
+    <ImageView
+        android:id="@+id/roue"
+        android:layout_width="338dp"
+        android:layout_height="382dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/roue_avec_contour" />
 
     <Button
         android:id="@+id/Button_turn"
@@ -61,15 +68,6 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/centre_roue" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="88dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
-        app:srcCompat="@drawable/titre_appli" />
 
     <TextView
         android:id="@+id/textCouleur"
