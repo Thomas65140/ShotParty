@@ -81,8 +81,7 @@ public class Play extends AppCompatActivity {
 
                 otherActivity.putExtra("colorInt",color);
                 otherActivity.putExtra("color",colorCase);
-
-               otherActivity.putExtra("color",colorCase);
+                otherActivity.putExtra("color",colorCase);
 
 
                 startActivity(otherActivity);

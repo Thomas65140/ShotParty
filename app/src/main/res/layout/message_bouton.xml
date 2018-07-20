@@ -15,8 +15,9 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:gravity="top|center_horizontal"
+        android:text="@string/c3"
         android:fontFamily="@font/bangers"
-        android:textSize="22sp" />
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/bouton_prochain_joueur"
