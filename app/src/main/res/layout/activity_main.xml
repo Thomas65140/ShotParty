@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fond_biere"
+    android:background="@drawable/fond_appli_v2"
     tools:context=".MainActivity">
 
     <Button
@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="152dp"
-        android:background="@drawable/custom_bouton_play"
+        android:layout_marginBottom="138dp"
+        android:background="@drawable/custom_bouton_nextplayer"
         android:text="@string/bouton_play"
         android:textColor="@android:color/black"
         android:textSize="20sp" />

@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
@@ -47,6 +48,9 @@ public class Play extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Animation animation = AnimationUtils.loadAnimation(Play.this, R.anim.blink_anim);
+                Button_suite.startAnimation(animation);
+
                 final String couleur = textCouleur.getText().toString();
 
                 Intent otherActivity = new Intent(getApplicationContext(), Pioche.class);
@@ -82,6 +86,7 @@ public class Play extends AppCompatActivity {
 
 
                 startActivity(otherActivity);
+                finish();
 
             }
         });
@@ -95,6 +100,9 @@ public class Play extends AppCompatActivity {
         Button_turn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Animation animation = AnimationUtils.loadAnimation(Play.this, R.anim.blink_anim3x);
+                Button_turn.startAnimation(animation);
+
                 degree_old = degree % 360;
                 degree = r.nextInt(3600) + 720;
 
