@@ -233,19 +233,19 @@ public class Pioche extends AppCompatActivity {
                     break;
 
                 case 40 :
-                    messageRdm = getResources().getString(R.string.b1);
+                    messageRdm = getResources().getString(R.string.b5);
                     break;
 
                 case 41 :
-                    messageRdm = getResources().getString(R.string.b2);
+                    messageRdm = getResources().getString(R.string.b5);
                     break;
 
                 case 42 :
-                    messageRdm = getResources().getString(R.string.b3);
+                    messageRdm = getResources().getString(R.string.b5);
                     break;
 
                 case 43 :
-                    messageRdm = getResources().getString(R.string.b4);
+                    messageRdm = getResources().getString(R.string.b5);
                     break;
 
                 case 44 :
@@ -253,111 +253,111 @@ public class Pioche extends AppCompatActivity {
                     break;
 
                 case 45 :
-                    messageRdm = getResources().getString(R.string.b6);
-                    break;
-
-                case 46 :
-                    messageRdm = getResources().getString(R.string.b7);
-                    break;
-
-                case 47 :
-                    messageRdm = getResources().getString(R.string.b8);
-                    break;
-
-                case 48 :
-                    messageRdm = getResources().getString(R.string.b9);
-                    break;
-
-                case 49 :
-                    messageRdm = getResources().getString(R.string.d1);
-                    break;
-
-                case 50 :
-                    messageRdm = getResources().getString(R.string.d2);
-                    break;
-
-                case 51 :
-                    messageRdm = getResources().getString(R.string.d3);
-                    break;
-
-                case 52 :
-                    messageRdm = getResources().getString(R.string.d4);
-                    break;
-
-                case 53 :
-                    messageRdm = getResources().getString(R.string.d5);
-                    break;
-
-                case 54 :
-                    messageRdm = getResources().getString(R.string.d6);
-                    break;
-
-                case 55 :
-                    messageRdm = getResources().getString(R.string.d7);
-                    break;
-
-                case 56 :
-                    messageRdm = getResources().getString(R.string.c1);
-                    break;
-
-                case 57 :
-                    messageRdm = getResources().getString(R.string.c2);
-                    break;
-
-                case 58 :
-                    messageRdm = getResources().getString(R.string.c3);
-                    break;
-
-                case 59 :
-                    messageRdm = getResources().getString(R.string.c4);
-                    break;
-
-                case 60 :
-                    messageRdm = getResources().getString(R.string.b1);
-                    break;
-
-                case 61 :
-                    messageRdm = getResources().getString(R.string.b2);
-                    break;
-
-                case 62 :
-                    messageRdm = getResources().getString(R.string.b3);
-                    break;
-
-                case 63 :
-                    messageRdm = getResources().getString(R.string.b4);
-                    break;
-
-                case 64 :
                     messageRdm = getResources().getString(R.string.b5);
                     break;
 
-                case 65 :
+                case 46 :
                     messageRdm = getResources().getString(R.string.b6);
                     break;
 
-                case 66 :
+                case 47 :
+                    messageRdm = getResources().getString(R.string.b6);
+                    break;
+
+                case 48 :
+                    messageRdm = getResources().getString(R.string.b6);
+                    break;
+
+                case 49 :
+                    messageRdm = getResources().getString(R.string.b6);
+                    break;
+
+                case 50 :
+                    messageRdm = getResources().getString(R.string.b6);
+                    break;
+
+                case 51 :
                     messageRdm = getResources().getString(R.string.b7);
                     break;
 
-                case 67 :
+                case 52 :
+                    messageRdm = getResources().getString(R.string.b7);
+                    break;
+
+                case 53 :
+                    messageRdm = getResources().getString(R.string.b7);
+                    break;
+
+                case 54 :
+                    messageRdm = getResources().getString(R.string.b7);
+                    break;
+
+                case 55 :
                     messageRdm = getResources().getString(R.string.b8);
                     break;
 
-                case 68 :
+                case 56 :
+                    messageRdm = getResources().getString(R.string.b8);
+                    break;
+
+                case 57 :
+                    messageRdm = getResources().getString(R.string.b8);
+                    break;
+
+                case 58 :
                     messageRdm = getResources().getString(R.string.b9);
                     break;
 
-                case 69 :
+                case 59 :
+                    messageRdm = getResources().getString(R.string.b9);
+                    break;
+
+                case 60 :
                     messageRdm = getResources().getString(R.string.d1);
                     break;
 
-                case 70 :
+                case 61 :
+                    messageRdm = getResources().getString(R.string.d1);
+                    break;
+
+                case 62 :
                     messageRdm = getResources().getString(R.string.d2);
                     break;
 
-                case 71 :
+                case 63 :
+                    messageRdm = getResources().getString(R.string.d2);
+                    break;
+
+                case 64 :
+                    messageRdm = getResources().getString(R.string.d2);
+                    break;
+
+                case 65 :
                     messageRdm = getResources().getString(R.string.d3);
+                    break;
+
+                case 66 :
+                    messageRdm = getResources().getString(R.string.d3);
+                    break;
+
+                case 67 :
+                    messageRdm = getResources().getString(R.string.d3);
+                    break;
+
+                case 68 :
+                    messageRdm = getResources().getString(R.string.d3);
+                    break;
+
+                case 69 :
+                    messageRdm = getResources().getString(R.string.d4);
+                    break;
+
+                case 70 :
+                    messageRdm = getResources().getString(R.string.d4);
+                    break;
+
+                case 71 :
+                    messageRdm = getResources().getString(R.string.d4);
                     break;
 
                 case 72 :
@@ -365,87 +365,87 @@ public class Pioche extends AppCompatActivity {
                     break;
 
                 case 73 :
-                    messageRdm = getResources().getString(R.string.d5);
-                    break;
-
-                case 74 :
-                    messageRdm = getResources().getString(R.string.d6);
-                    break;
-
-                case 75 :
-                    messageRdm = getResources().getString(R.string.d7);
-                    break;
-
-                case 76 :
-                    messageRdm = getResources().getString(R.string.c1);
-                    break;
-
-                case 77 :
-                    messageRdm = getResources().getString(R.string.c2);
-                    break;
-
-                case 78 :
-                    messageRdm = getResources().getString(R.string.c3);
-                    break;
-
-                case 79 :
-                    messageRdm = getResources().getString(R.string.c4);
-                    break;
-
-                case 80 :
-                    messageRdm = getResources().getString(R.string.b1);
-                    break;
-
-                case 81 :
-                    messageRdm = getResources().getString(R.string.b2);
-                    break;
-
-                case 82 :
-                    messageRdm = getResources().getString(R.string.b3);
-                    break;
-
-                case 83 :
-                    messageRdm = getResources().getString(R.string.b4);
-                    break;
-
-                case 84 :
-                    messageRdm = getResources().getString(R.string.b5);
-                    break;
-
-                case 85 :
-                    messageRdm = getResources().getString(R.string.b6);
-                    break;
-
-                case 86 :
-                    messageRdm = getResources().getString(R.string.b7);
-                    break;
-
-                case 87 :
-                    messageRdm = getResources().getString(R.string.b8);
-                    break;
-
-                case 88 :
-                    messageRdm = getResources().getString(R.string.b9);
-                    break;
-
-                case 89 :
-                    messageRdm = getResources().getString(R.string.d1);
-                    break;
-
-                case 90 :
-                    messageRdm = getResources().getString(R.string.d2);
-                    break;
-
-                case 91 :
-                    messageRdm = getResources().getString(R.string.d3);
-                    break;
-
-                case 92 :
                     messageRdm = getResources().getString(R.string.d4);
                     break;
 
-                case 93 :
+                case 74 :
+                    messageRdm = getResources().getString(R.string.d4);
+                    break;
+
+                case 75 :
                     messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 76 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 77 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 78 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 79 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 80 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 81 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 82 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 83 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 84 :
+                    messageRdm = getResources().getString(R.string.d5);
+                    break;
+
+                case 85 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 86 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 87 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 88 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 89 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 90 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 91 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 92 :
+                    messageRdm = getResources().getString(R.string.d6);
+                    break;
+
+                case 93 :
+                    messageRdm = getResources().getString(R.string.d6);
                     break;
 
                 case 94 :
@@ -457,19 +457,19 @@ public class Pioche extends AppCompatActivity {
                     break;
 
                 case 96 :
-                    messageRdm = getResources().getString(R.string.c1);
+                    messageRdm = getResources().getString(R.string.d7);
                     break;
 
                 case 97 :
-                    messageRdm = getResources().getString(R.string.c2);
+                    messageRdm = getResources().getString(R.string.d7);
                     break;
 
                 case 98 :
-                    messageRdm = getResources().getString(R.string.c3);
+                    messageRdm = getResources().getString(R.string.d7);
                     break;
 
                 case 99 :
-                    messageRdm = getResources().getString(R.string.c4);
+                    messageRdm = getResources().getString(R.string.c1);
                     break;
             }
         }
