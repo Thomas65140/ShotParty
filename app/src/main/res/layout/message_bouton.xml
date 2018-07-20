@@ -15,7 +15,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:gravity="top|center_horizontal"
-        android:text="@string/message"
+        android:fontFamily="@font/bangers"
         android:textSize="22sp" />
 
     <Button
