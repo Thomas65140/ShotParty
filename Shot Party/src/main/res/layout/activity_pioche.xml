@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pioche"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pioche"
+    tools:ignore="InvalidId">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="270dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="270dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/custom_bouton_myst_vert"
+        android:fontFamily="@font/bangers"
+        android:text="@string/nom_bouton_mystere"
+        android:textSize="42sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/titre_appli" />
+
+</RelativeLayout>
